@@ -4,5 +4,5 @@ sum = 0
 while n != 0:
     rest = n % 10
     n = (n-rest)//10
-    sum = sum + rest
+    sum += rest
 print(sum)
